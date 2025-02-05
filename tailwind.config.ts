@@ -1,4 +1,4 @@
-import type {Config} from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 // @ts-ignore
 export default {
@@ -11,10 +11,10 @@ export default {
         extend: {
             keyframes: {
                 "pop-blob": {
-                    "0%": {transform: "scale(1)"},
-                    "33%": {transform: "scale(1.2)"},
-                    "66%": {transform: "scale(0.8)"},
-                    "100%": {transform: "scale(1)"},
+                    "0%": { transform: "scale(1)" },
+                    "33%": { transform: "scale(1.2)" },
+                    "66%": { transform: "scale(0.8)" },
+                    "100%": { transform: "scale(1)" },
                 },
             },
             animation: {
@@ -23,6 +23,8 @@ export default {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
+                primary: "var(--primary)",
+                accent: "var(--accent)",
                 filter: {
                     "blur-20": "blur(20px)",
                     "blur-25": "blur(25px)",
